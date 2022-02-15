@@ -1,1 +1,0 @@
-# Tantsiura Andriy Step project
