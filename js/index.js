@@ -1,3 +1,4 @@
+/* TABS */
 const tabsBtn = document.querySelectorAll('.tabs-title')
 const tabsItem = document.querySelectorAll('.tabs-item')
 

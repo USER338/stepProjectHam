@@ -206,4 +206,36 @@
 	line-height: 24px;
 	max-width: 938px;
 	column-gap: 15px;
+	color: #777777;
+}
+
+.purchase {
+	background-image: url('../img/purchase-bg.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.purchase-title {
+	padding-top: 125px;
+	padding-bottom: 15px;
+	color: #18cfab;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 40px;
+}
+
+.purchase-subtitle {
+	color: #d8d8d8;
+	font-size: 16px;
+	line-height: 40px;
+	padding-bottom: 62px;
+}
+
+.purchase-button {
+	margin-bottom: 127px;
 }
