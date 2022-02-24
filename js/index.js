@@ -64,3 +64,33 @@ btn.addEventListener('click', () => {
 		hidden.classList.add('active')
 	}, 5000)
 })
+
+/* SWIPER */
+
+const swiper = new Swiper('.swiper', {
+	direction: 'horizontal',
+	loop: true,
+	cssMode: true,
+	effect: 'slide',
+
+	pagination: {
+		el: '.swiper-pagination',
+		clickable: true,
+		dynamicBullets: true,
+		type: 'custom',
+		bulletClass: 'swiper-pagination-img',
+	},
+
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
+})
+
+/* MASONRY */
+
+let elem = document.querySelector('.gallery-content')
+let msnry = new Masonry(elem, {
+	itemSelector: '.gallery-content__img',
+	columnWidth: 200,
+})
